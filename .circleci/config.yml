@@ -9,7 +9,7 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Print the Current Time
+          name: Print Current Time
           command: date
       - run:
           name: TestRail admin user name
