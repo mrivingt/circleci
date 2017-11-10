@@ -1,12 +1,11 @@
-
 version: 2
 jobs:
   build:
     docker:
       - image: mrivingt/testrail
-      auth:
-      username: $DOCKERHUB_USERNAME
-      password: $DOCKERHUB_PASSWORD
+        auth:
+          username: $DOCKERHUB_USERNAME
+          password: $DOCKERHUB_PASSWORD
     steps:
       - checkout
       - run:
