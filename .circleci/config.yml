@@ -14,3 +14,6 @@ jobs:
       - run:
           name: Print the Current Time
           command: date
+      - run:
+          name: TestRail admin user name
+          command: cat /run/entrypoint/testrailUserName
