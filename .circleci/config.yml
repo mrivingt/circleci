@@ -12,5 +12,8 @@ jobs:
           name: Print Current Time
           command: date
       - run:
+          name: A simple change
+          command: curl -L rivington.testrail.net
+      - run:
           name: TestRail admin user name
           command: cat /run/entrypoint/testrailUserName
