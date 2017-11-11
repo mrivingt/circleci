@@ -13,7 +13,7 @@ jobs:
           command: date
       - run:
           name: A simple change
-          command: curl -L rivington.testrail.net
+          command: curl -L rivington.testrail.net/index.php
       - run:
           name: TestRail admin user name
           command: cat /run/entrypoint/testrailUserName
