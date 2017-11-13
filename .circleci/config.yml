@@ -14,7 +14,7 @@ jobs:
       - run:
           name: A simple change
           command: curl -L rivington.testrail.net/index.php
-       - run:
+      - run:
           name: What build is this
           command: cat /run/entrypoint/source/testrail-core/build.txt
       - run:
