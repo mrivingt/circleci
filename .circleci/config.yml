@@ -12,14 +12,8 @@ jobs:
           name: Print Current Time
           command: date
       - run:
-          name: A simple change
-          command: curl -L rivington.testrail.net/index.php
-      - run:
-          name: What build is this
-          command: cat /run/entrypoint/source/testrail-core/build.txt
-      - run:
-          name: TestRail admin user name
-          command: cat /run/entrypoint/testrailUserName
+          name: List root
+          command: ls -al /
     branches:
       only:
         - master
