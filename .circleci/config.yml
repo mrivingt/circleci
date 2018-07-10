@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: mrivingt/testrail
+      - image: mrivingt/testrail=qa
         auth:
           username: $DOCKERHUB_USERNAME
           password: $DOCKERHUB_PASSWORD
